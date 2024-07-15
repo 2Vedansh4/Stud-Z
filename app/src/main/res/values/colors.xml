@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#2C746B</color>
+    <color name="colorPrimaryDark">#1E534D</color>
+    <color name="colorAccent">#161e33</color>
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnPrimaryInverse">#000000</color>
+    <color name="colorOnSecondary">#2C746B</color>
+    <color name="colorOnSecondaryInverse">#FFFFFF</color>
+    <color name="green">#3237FF00</color>
+    <color name="physics">#9C091F99</color>
+    <color name="chemistry">#A9DF1C0D</color>
+    <color name="maths">#BEFFC107</color>
+
+
+    <color name="colorOnError">#FF0000</color>
+    <color name = "background_color"> #FFFFFFFF</color>
+    <color name = "text_color">#100000</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+
+</resources>

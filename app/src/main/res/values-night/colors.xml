@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#2C746B</color> <!-- Teal (Primary) -->
+    <color name="colorPrimaryDark">#1E534D</color> <!-- Darker Shade of Teal (Primary Dark) -->
+    <color name="colorAccent">#161e33</color> <!-- Light Blue (Accent) -->
+
+    <!-- Background Colors -->
+    <color name="colorBackground">#12161D</color> <!-- Dark Blue Gray (Background) -->
+
+    <!-- Text and Icon Colors -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- White (Text and Icon Color on Primary) -->
+    <color name="colorOnPrimaryInverse">#000000</color> <!-- Black (Text and Icon Color on Primary - Inverse) -->
+    <color name="colorOnSecondary">#2C746B</color> <!-- Teal (Text and Icon Color on Secondary) -->
+    <color name="colorOnSecondaryInverse">#FFFFFF</color> <!-- White (Text and Icon Color on Secondary - Inverse) -->
+
+    <!-- Error or Validation Color (Optional) -->
+    <color name="colorOnError">#FF0000</color> <!-- Red (Error or Validation Color) -->
+
+    <color name="background_color">#12161D</color> <!-- Dark Blue Gray (Background Color) -->
+    <color name="text_color">#FFFFFF</color> <!-- White (Text Color) -->
+
+</resources>

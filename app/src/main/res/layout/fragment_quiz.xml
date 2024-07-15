@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<androidx.appcompat.widget.LinearLayoutCompat
+
+    android:paddingBottom="60dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.quiz.QuizFragment">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/heading01"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            app:cardCornerRadius="6dp"
+            android:backgroundTint="@color/physics"
+
+            android:layout_marginLeft="6dp"
+            android:layout_marginBottom="6dp">
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/image01"
+                    android:padding="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textColor="@color/white"
+                    android:text="Physics"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/heading02"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="6dp"
+            app:cardCornerRadius="6dp"
+
+            android:backgroundTint="@color/chemistry"
+            android:layout_marginBottom="6dp">
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:padding="12dp"
+                    android:id="@+id/image02"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textColor="@color/white"
+                    android:text="Chemistry"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/heading03"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:backgroundTint="@color/maths"
+            android:layout_marginLeft="6dp"
+            app:cardCornerRadius="6dp"
+
+            android:layout_marginBottom="6dp">
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:padding="12dp"
+
+                    android:layout_width="match_parent"
+                    android:id="@+id/image03"
+
+                    android:layout_height="150dp"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textColor="@color/white"
+                    android:text="Mathematics"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</ScrollView>
+
+
+

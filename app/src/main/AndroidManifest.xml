@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/img4"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/img4"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StudZ"
+        tools:targetApi="31">
+        <activity
+            android:name=".AiTaskAdd"
+            android:exported="false" />
+        <activity
+            android:name=".addyourtask"
+            android:exported="false" />
+        <activity
+            android:name=".Tasky"
+            android:exported="false" />
+        <activity
+            android:name=".TaskAdd"
+            android:exported="false" />
+        <activity
+            android:name=".ui.quiz.Topics_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Scroll"
+            android:exported="false" />
+        <activity
+            android:name=".Game"
+            android:exported="false" />
+        <activity
+            android:name=".ui.quiz.toquiz"
+            android:exported="false" />
+        <activity
+            android:name=".ui.quiz.quizanalysis"
+            android:exported="false" />
+        <activity
+            android:name=".ui.quiz.quiz2"
+            android:exported="false" />
+        <activity
+            android:name=".ui.quiz.Score"
+            android:exported="false" />
+        <activity
+            android:name=".ui.quiz.quizactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Loss"
+            android:exported="false" />
+        <activity
+            android:name=".ui.thisactivity"
+            android:exported="false" />
+        <activity
+            android:name=".chapters.five.chfive"
+            android:exported="false" />
+        <activity
+            android:name=".chapters.four.chfour"
+            android:exported="false" />
+        <activity
+            android:name=".chapters.three.chthree"
+            android:exported="false" />
+        <activity
+            android:name=".chapters.two.chtwo"
+            android:exported="false" />
+        <activity
+            android:name=".chapters.one.chone"
+            android:exported="false" />
+        <activity
+            android:name=".test"
+            android:exported="false" />
+        <activity
+            android:name=".chaptertopics.TopicActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Base.Theme.StudZ.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
